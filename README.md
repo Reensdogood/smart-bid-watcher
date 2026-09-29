@@ -97,3 +97,9 @@ smart_bid_watcher/
 - 첫 확인에서 알림이 오지 않음: 정상입니다. 기존 항목은 기준선으로 목록에만 저장합니다.
 
 PC가 켜져 있고 앱이 실행 중일 때만 주기 조회가 동작합니다. ntfy 전송 실패 항목은 `pending`으로 남겨 다음 확인 때 다시 보냅니다.
+
+## 라이선스
+
+Smart Bid Watcher 자체 소스는 [MIT License](LICENSE)로 공개합니다. 자유롭게 사용·수정·재배포할 수 있으며 저작권 및 라이선스 고지를 유지해야 합니다.
+
+PySide6/Qt, Requests, holidays, Python 및 PyInstaller 등 포함된 구성요소에는 각각 별도의 라이선스가 적용됩니다. 특히 PySide6/Qt가 포함된 Windows EXE를 재배포하거나 상업적으로 배포할 때는 [제3자 라이선스 고지](THIRD_PARTY_NOTICES.md)와 [Qt for Python 라이선스 안내](https://doc.qt.io/qtforpython-6/licenses.html)를 확인하세요.
