@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# PyInstaller outputs
+build/
+build-*/
+dist/
+dist-*/
+
+# Runtime data and secrets
+config.json
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Local UI captures
+ui-preview*.png
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
